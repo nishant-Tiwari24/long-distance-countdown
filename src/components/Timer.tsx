@@ -36,7 +36,7 @@ const Timer: React.FC<TimerProps> = ({ targetDate }) => {
   }, [targetDate]);
 
   return (
-    <section className="timer-container">
+    <section className="timer-container ">
       <section className="timer absolute top-1/3 left-1/2 -translate-x-[50%] -translate-y-[50%] grid gap-40 mt-24">
         <div>
           <span className="mdi di-calender-clock ">
